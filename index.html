@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Elchemy Timer App</title>
+  </head>
+  <body>
+    <div class="timer-container">
+      <h1 class="timer-heading">Elchemy Timer</h1>
+      <div class="timers">
+        <input type="number" id="minutes" min="0" placeholder="minutes" />
+        <input type="number" id="seconds" min="0" placeholder="seconds " />
+      </div>
+
+      <div id="timer">00m 00s</div>
+      <div class="btns">
+        <button class="start-btn btn" onclick="startTimer()">START</button>
+        <button class="reset-btn btn" onclick="resetTimer()">RESET</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.timer-container {
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #333;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.timer-heading {
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.timers {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.3rem;
+}
+
+.timers input {
+  width: 50px;
+  padding: 5px;
+  margin: 0 5px;
+  text-align: center;
+  background-color: #444;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+}
+
+.timers input::placeholder {
+  color: #888;
+}
+
+#minutes {
+  flex: 1;
+}
+
+#seconds {
+  flex: 1;
+}
+
+#timer {
+  font-size: 3em;
+  letter-spacing: 0.1em;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.btns .btn {
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.start-btn {
+  background-color: #6ed06e;
+}
+
+.reset-btn {
+  background-color: #d66a6a;
+}
+
+/*
+label,
+input,
+button {
+  margin: 5px;
+  font-size: 16px;
+}
+
+#timer {
+  margin-top: 10px;
+  font-size: 24px;
+} */
